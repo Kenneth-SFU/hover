@@ -1,12 +1,9 @@
 /* Style 1 : Red Underline */
 
-a.imglink1, a.imglink1:link, a.imglink1:visited
+/* News */
+a.imglink1, a.imglink1:link, a.imglink1:visited {  text-decoration: none;  position: relative; }
+a.imglink1::before
 {
-  text-decoration: none;
-  position: relative;  
-}
-
-a.imglink1::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -20,13 +17,32 @@ a.imglink1::before {
   background-position: left bottom; /* start position of underline */
   transition: background-size .4s ease-in-out, opacity .4s ease-in; /* duration and timing style of animation */
 }
-
 a.imglink1:hover::before {
   background-image: linear-gradient(90deg, #cc0633, #cc0633); /* underline color #cc0633 */
-    opacity:100;
-  background-size: 100% 8px;
+  opacity:100;    background-size: 100% 8px;
 }
 
+/* Events */
+a.imglink1a.lwc-card-link + div.card-list__item--image{ position: relative;}
+a.imglink1a.lwc-card-link + div.card-list__item--image::before 
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  height: 100%;  
+  background-image: linear-gradient(90deg, #cc0633, #cc0633); /* underline color */
+  opacity:0;
+  background-size: 0 8px; /* vertical size of underline */
+  background-repeat: no-repeat;
+  background-position: left bottom; /* start position of underline */
+  transition: background-size .4s ease-in-out, opacity .4s ease-in; /* duration and timing style of animation */
+}
+a.imglink1a.lwc-card-link:hover + div.card-list__item--image::before {
+  background-image: linear-gradient(90deg, #cc0633, #cc0633); /* underline color #cc0633 */
+  opacity:100;  background-size: 100% 8px;
+}
 
 
 /* Style 2 : gray scale */
@@ -96,3 +112,5 @@ div.card-list__item--image a:hover img{
 	-webkit-transition: .3s ease-in-out; transition: .3s ease-in-out; 
 }
 */
+
+/* Fix CSS */

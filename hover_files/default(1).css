@@ -1,0 +1,193 @@
+section.footer {
+    background-color: #e6e7e8;
+}
+
+@media (min-width: 755px) {
+    section.footer {
+        background-color: #f5f5f5;
+    }
+}
+
+.footer__content a {
+    color: #414042;
+}
+
+.footer__content > div.footer__content--sfu-global {
+    background-color: #f5f5f5;
+}
+
+@media (min-width: 755px) {
+    .footer__content > div.footer__content--sfu-global {
+        background-color: #ffffff;
+    }
+}
+
+.footer__content > div.footer__content--sfu-info .footer__content--sfu-info-logo__img--light-theme {
+    display: block;
+}
+
+.footer__content > div.footer__content--sfu-info .footer__content--sfu-info-logo__img--dark-theme {
+    display: none;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer p {
+    color: #414042;
+}
+
+@media (any-hover: hover) {
+    .header__content .parent-site-name a:hover {
+        color: #cc0633;
+    }
+}
+
+@media (any-hover: hover) {
+    .header__content .main-site-name a:hover {
+        color: #cc0633;
+    }
+}
+
+@media (any-hover: hover) {
+    .page-content__side-nav ul > li.snav-l2 > a:not(.is-current-page):hover, .page-content__side-nav ul > li.snav-l3 > a:not(.is-current-page):hover, .page-content__side-nav ul > li.snav-l4 > a:not(.is-current-page):hover, .page-content__side-nav ul > li.snav-l5 > a:not(.is-current-page):hover {
+        background-color: #cc0633;
+    }
+}
+
+.mobile-nav__content--nav-list > div.mobile-nav__main-nav,
+.mobile-search__content--nav-list > div.mobile-nav__main-nav {
+    background-color: #ffffff;
+}
+
+.mobile-nav__content--nav-list > div.mobile-nav__main-nav > ul > li.active,
+.mobile-search__content--nav-list > div.mobile-nav__main-nav > ul > li.active {
+    background-color: #cc0633;
+}
+
+.mobile-nav__content--nav-list > div.mobile-nav__main-nav > ul > li.active > a,
+.mobile-search__content--nav-list > div.mobile-nav__main-nav > ul > li.active > a {
+    color: #ffffff;
+}
+
+.mobile-nav li a,
+.mobile-search li a {
+    color: #cc0633;
+}
+
+section > div.mobile-nav__content li.active > ul > li.active a {
+    background-color: #f5f5f5;
+    color: #cc0633;
+}
+
+section > div.mobile-nav__content li.active > ul > li.active a:after {
+    color: inherit;
+}
+
+.mobile-nav__third-level-container > div.mobile-nav__third-level-container--nav-items ul li a {
+    color: #414042;
+}
+
+.mobile-nav__social-icons > ul.mobile-nav__social-icons--home-link > li a {
+    color: #6d6f71;
+}
+
+.mobile-nav__social-icons > div.mobile-nav__social-icons--social-links a {
+    color: #6d6f71;
+}
+
+.mobile-nav__audience-nav li a {
+    color: #6d6f71;
+}
+
+.mobile-nav__audience-nav li.active a {
+    color: #cc0633;
+}
+
+.mobile-nav li > a.has-third-level:after {
+    color: inherit;
+}
+
+.mobile-search .mobile-search-links ul li a {
+    color: #6d6f71;
+}
+
+.mobile-search .mobile-search-links ul li a span {
+    color: #6d6f71;
+}
+
+@media (min-width: 980px) {
+    .nav {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .nav__content--main-navigation > ul > li > a {
+        color: #cc0633;
+    }
+
+    .nav__content--main-navigation > ul > li.active {
+        background-color: #cc0633;
+    }
+
+    .nav__content--main-navigation > ul > li.active > a {
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 980px) and (any-hover: hover) {
+    .nav__content--main-navigation > ul > li:hover {
+        background-color: #cc0633;
+    }
+
+    .nav__content--main-navigation > ul > li:hover > a {
+        color: #ffffff;
+    }
+}
+
+.nav li > ul {
+    margin-top: -0.1rem;
+    border-top: 1px solid #cc0633;
+}
+
+@media (any-hover: hover) {
+    .nav li > ul li:not(.active) a:hover {
+        color: #ffffff;
+        background-color: #cc0633;
+    }
+}
+
+section.ribbon {
+    background-color: #f5f5f5;
+}
+
+section.ribbon .ribbon__content--mobile-nav-icons span {
+    color: #cc0633;
+}
+
+section.ribbon .ribbon__content--mobile-nav-icons span:before {
+    color: #cc0633;
+}
+
+@media (min-width: 980px) {
+    section.ribbon .ribbon__content--social-icons ul li a,
+section.ribbon .ribbon__content--social-icons .header-left p a, section.ribbon .ribbon__content--audience-nav ul li a,
+section.ribbon .ribbon__content--audience-nav .header-left p a {
+        color: #6d6f71;
+    }
+}
+
+@media (min-width: 980px) and (any-hover: hover) {
+    section.ribbon .ribbon__content--social-icons ul li a:hover,
+section.ribbon .ribbon__content--social-icons .header-left p a:hover, section.ribbon .ribbon__content--audience-nav ul li a:hover,
+section.ribbon .ribbon__content--audience-nav .header-left p a:hover {
+        color: #cc0633;
+    }
+}
+
+@media (min-width: 980px) {
+    section.ribbon .ribbon__content--social-icons ul li.active a, section.ribbon .ribbon__content--audience-nav ul li.active a {
+        color: #cc0633;
+    }
+}
